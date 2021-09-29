@@ -23,6 +23,11 @@ execute command inside instance:
 multipass exec primary -- cat /etc/os-release
 ```
 
+mount current directory with primary instance:
+```bash
+multipass mount . primary
+```
+
 check info for primary instance:
 ```bash
 multipass info primary
