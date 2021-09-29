@@ -22,22 +22,37 @@ multipass ls
 
 SSH inside multipass instance:
 ```bash
-multipass shell
 multipass shell juju
 ```
 
 execute command inside instance:
 ```bash
-multipass exec primary -- cat /etc/os-release
+multipass exec juju -- cat /etc/os-release
 ```
 
 mount current directory with primary instance:
 ```bash
-multipass mount . primary
+multipass mount . juju
 ```
 
 check info for primary instance:
 ```bash
-multipass info primary
+multipass info juju
 ```
+
+delete instance:
+```bash
+multipass delete juju
+```
+
+recover instance:
+```bash
+multipass recover juju
+```
+
+Purge all deleted instances permanently:
+```bash
+multipass purge
+```
+
 
