@@ -1,6 +1,7 @@
 # multipass
 
-https://multipass.run
+https://multipass.run \
+https://multipass.run/docs
 
 Display available images to create instances from:
 ```bash
@@ -12,9 +13,14 @@ List all available instances:
 multipass ls
 ```
 
-SSH inside multipass box:
+SSH inside multipass instance:
 ```bash
-multipass exec primary bash
+multipass shell
+```
+
+execute command inside instance:
+```bash
+multipass exec primary -- cat /etc/os-release
 ```
 
 check info for primary instance:
