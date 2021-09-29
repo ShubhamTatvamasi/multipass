@@ -10,7 +10,9 @@ multipass find
 
 start an instance with custom config:
 ```bash
-multipass launch --disk 40GB
+multipass launch \
+  --name juju \
+  --disk 40GB
 ```
 
 List all available instances:
