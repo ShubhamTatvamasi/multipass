@@ -21,6 +21,7 @@ multipass ls
 SSH inside multipass instance:
 ```bash
 multipass shell
+multipass shell acquainted-cattle
 ```
 
 execute command inside instance:
