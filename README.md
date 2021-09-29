@@ -10,7 +10,7 @@ multipass find
 
 start an instance with custom config:
 ```bash
-multipass launch \
+multipass launch focal \
   --name juju \
   --disk 40GB
 ```
