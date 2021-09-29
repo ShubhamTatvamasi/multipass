@@ -23,7 +23,7 @@ multipass ls
 SSH inside multipass instance:
 ```bash
 multipass shell
-multipass shell acquainted-cattle
+multipass shell juju
 ```
 
 execute command inside instance:
