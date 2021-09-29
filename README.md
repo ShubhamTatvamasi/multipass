@@ -30,12 +30,17 @@ execute command inside instance:
 multipass exec juju -- cat /etc/os-release
 ```
 
-mount current directory with primary instance:
+mount current directory with instance:
 ```bash
 multipass mount . juju
 ```
 
-check info for primary instance:
+umount directory from instance 
+```bash
+multipass umount juju
+```
+
+check info for instance:
 ```bash
 multipass info juju
 ```
