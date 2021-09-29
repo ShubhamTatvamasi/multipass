@@ -8,6 +8,11 @@ Display available images to create instances from:
 multipass find
 ```
 
+start an instance with custom config:
+```bash
+multipass launch --disk 40GB
+```
+
 List all available instances:
 ```bash
 multipass ls
