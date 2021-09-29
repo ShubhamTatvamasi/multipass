@@ -9,6 +9,10 @@ multipass find
 
 List all available instances:
 ```bash
-multipass list
+multipass ls
 ```
 
+SSH inside multipass box:
+```
+multipass exec primary bash
+```
