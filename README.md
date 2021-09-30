@@ -12,7 +12,9 @@ start an instance with custom config:
 ```bash
 multipass launch focal \
   --name juju \
-  --disk 40GB
+  --disk 40GB \
+  --mem 2G \
+  --cpus 2
 ```
 
 List all available instances:
