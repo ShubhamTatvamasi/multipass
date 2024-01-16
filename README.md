@@ -13,7 +13,7 @@ start an instance with custom config:
 multipass launch lts \
   --name ubuntu \
   --disk 40G \
-  --mem 2G \
+  --memory 2G \
   --cpus 2
 ```
 
