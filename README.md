@@ -10,8 +10,8 @@ multipass find
 
 start an instance with custom config:
 ```bash
-multipass launch focal \
-  --name juju \
+multipass launch lts \
+  --name ubuntu \
   --disk 40G \
   --mem 2G \
   --cpus 2
@@ -24,37 +24,37 @@ multipass ls
 
 SSH inside multipass instance:
 ```bash
-multipass shell juju
+multipass shell ubuntu
 ```
 
 execute command inside instance:
 ```bash
-multipass exec juju -- cat /etc/os-release
+multipass exec ubuntu -- cat /etc/os-release
 ```
 
 mount current directory with instance:
 ```bash
-multipass mount . juju
+multipass mount . ubuntu
 ```
 
 umount directory from instance 
 ```bash
-multipass umount juju
+multipass umount ubuntu
 ```
 
 check info for instance:
 ```bash
-multipass info juju
+multipass info ubuntu
 ```
 
 delete instance:
 ```bash
-multipass delete juju
+multipass delete ubuntu
 ```
 
 recover instance:
 ```bash
-multipass recover juju
+multipass recover ubuntu
 ```
 
 Purge all deleted instances permanently:
