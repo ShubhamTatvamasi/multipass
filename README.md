@@ -49,7 +49,7 @@ multipass info ubuntu
 
 delete instance:
 ```bash
-multipass delete ubuntu
+multipass delete ubuntu --purge
 ```
 
 recover instance:
